@@ -1,0 +1,72 @@
+body {
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Rubik Scribble", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: yellow;
+    font-weight: bold;
+    background-color: black;
+    width: 100%;
+    height: 50vw;
+}
+
+h1 {
+    font-size: 4rem;
+}
+button {
+    font-weight: bold;
+    opacity: .9;
+    margin: 0 1.5rem;
+}
+
+button:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+
+#rock {
+    height: 10rem;
+    width: 10rem;
+    background-image: url("images/rock.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#paper {
+    height: 10rem;
+    width: 10rem;
+    background: url("images/paper.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#scissors {
+    height: 10rem;
+    width: 10rem;
+    background: url("images/scissors.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#results {
+    font-size: 2rem;
+    margin-top: 1rem;
+
+}
+
+#score {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
